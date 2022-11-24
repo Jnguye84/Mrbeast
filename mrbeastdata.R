@@ -18,7 +18,7 @@ library(udpipe)
 ##
 
 
-key <- ("AIzaSyC1ETOdFrV5QZHhBlTGhzflQpxXa8MMsuc") #api key
+key <- (FILL IN WITH YOUR OWN API KEY) #api key
 MrBeastChannelID<-"UCX6OQ3DkcsbYNE6H8uQQuVA" #channel id
 base<- "https://www.googleapis.com/youtube/v3/" #baseurl
 
