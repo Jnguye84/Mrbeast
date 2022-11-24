@@ -2,7 +2,7 @@
 Mr Beast YouTube Analytics: Word Clouds and Bar Graphs
 
 ## WHAT FILES ARE WHAT?
-<u>'CDS 301 Final (1).pdf' </u> contains my bakcground for project, literature review, data-preprocessing steps, and resulted word clouds and bar graphs. <br>
+<u>'CDS 301 Final (1).pdf' </u> contains my background for project, literature review, data-preprocessing steps, and resulted word clouds and bar graphs. <br>
 <u>'graphsmrbeast.R'</u> is where I created all of my graphs <br>
 
 <u>'mrbeast_titles.txt'</u> is where all of Mr. Beast's YouTube titles (730 videos, updated 11/24/22) <br>
