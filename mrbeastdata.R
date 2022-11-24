@@ -126,6 +126,7 @@ vid.df <- cbind(items.id, items.statistics.viewCount,items.statistics.likeCount,
 vid.df[is.na(vid.df)] <- 0 #make all NA into 0
 
 upload.df <- cbind(upload.df,vid.df) #combine the video information (titles, description, when it was posted) and video statistics (likes, view count, and comment count)
+##LOOK AT UPLOAD.DF BEFORE EXECUTING LINE 130, LINE 130 NARROWS THE DF DOWN AND YOU NEED TO SEE WHICH COLUMNS YOU WANT TO KEEP
 upload.df <- select(upload.df,items.id, items.statistics.viewCount,items.statistics.likeCount, items.statistics.commentCount,snippet.publishedAt,snippet.description,snippet.title,snippet.playlistId)
   
 write.csv(upload.df, file = "upload.csv")
